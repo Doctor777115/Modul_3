@@ -7,7 +7,7 @@ def string_info(string):
     return len(string), string.upper(), string.lower()
 def is_contains (string, list_to_search):
     count_calls()
-    return  string, list_to_search
+    return string, list_to_search
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN']))  # Urban ~ urBAN
